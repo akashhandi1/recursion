@@ -9,9 +9,18 @@ public class Number {
         numb(num);
     }
 
-    static void numb(int num){
-        for (int i = 1; i <= num; i++) {
-            System.out.println(i);
+//    static void numb(int num){
+//        for (int i = 1; i <= num; i++) {
+//            System.out.println(i);
+//        }
+//    }
+
+    static void numb(int n){
+        if(n == 5){
+            System.out.println(5);
+            return ;
         }
+        System.out.println(n);
+        numb(n+1);
     }
 }
