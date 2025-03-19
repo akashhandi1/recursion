@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90fc1f50-bd0d-46de-9af1-6d639e047941" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/recurr/fact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recurr/sumofdigit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recurr/nto1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recurr/nto1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +46,7 @@
     "Application.fact.executor": "Run",
     "Application.fibo.executor": "Run",
     "Application.nto1.executor": "Run",
+    "Application.sumofdigit.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
