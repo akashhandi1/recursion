@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90fc1f50-bd0d-46de-9af1-6d639e047941" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/recurr/nto1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recurr/fact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recurr/fibo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recurr/fibo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recurr/nto1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recurr/nto1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,9 @@
     "Application.Number.executor": "Run",
     "Application.Numberex.executor": "Run",
     "Application.bs.executor": "Run",
+    "Application.fact.executor": "Run",
     "Application.fibo.executor": "Run",
+    "Application.nto1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -79,8 +81,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="nto1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recurr.nto1" />
+      <module name="recursion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recurr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.nto1" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
