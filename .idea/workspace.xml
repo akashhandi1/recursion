@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90fc1f50-bd0d-46de-9af1-6d639e047941" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/recurr/ls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recurr/sorted.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recurr/count0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recurr/count0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recurr/revno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recurr/revno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recurr/steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recurr/steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recurr/ls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recurr/ls.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
