@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90fc1f50-bd0d-46de-9af1-6d639e047941" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sorting/mergesort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recurr/ls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recurr/ls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recurr/pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recurr/pattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recurr/rbs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recurr/rbs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,10 @@
     "Application.fact.executor": "Run",
     "Application.fibo.executor": "Run",
     "Application.ls.executor": "Run",
+    "Application.mergesort.executor": "Run",
     "Application.nto1.executor": "Run",
+    "Application.pattern.executor": "Debug",
+    "Application.rbs.executor": "Debug",
     "Application.revno.executor": "Run",
     "Application.sorted.executor": "Debug",
     "Application.steps.executor": "Run",
@@ -59,7 +64,7 @@
     "onboarding.tips.debug.path": "C:/Users/akash/IdeaProjects/recursion/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.mergesort">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recurr.Main" />
       <module name="recursion" />
@@ -73,8 +78,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recurr.Number" />
+    <configuration name="mergesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.mergesort" />
+      <module name="recursion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nto1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recurr.nto1" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nto1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recurr.nto1" />
+    <configuration name="pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recurr.pattern" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
@@ -114,6 +132,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.mergesort" />
+        <item itemvalue="Application.pattern" />
         <item itemvalue="Application.sorted" />
         <item itemvalue="Application.nto1" />
         <item itemvalue="Application.Main" />
@@ -138,6 +158,24 @@
           <properties class="java.lang.StackOverflowError" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/recurr/pattern.java</url>
+          <line>46</line>
+          <properties class="recurr.pattern" method="ss">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/sorting/mergesort.java</url>
+          <line>11</line>
+          <properties class="sorting.mergesort" method="mergeSort">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
