@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90fc1f50-bd0d-46de-9af1-6d639e047941" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sorting/mergesort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recurr/pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recurr/pattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recurr/rbs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recurr/rbs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/mergesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/mergesort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,7 @@
     "Application.fact.executor": "Run",
     "Application.fibo.executor": "Run",
     "Application.ls.executor": "Run",
-    "Application.mergesort.executor": "Run",
+    "Application.mergesort.executor": "Debug",
     "Application.nto1.executor": "Run",
     "Application.pattern.executor": "Debug",
     "Application.rbs.executor": "Debug",
@@ -169,12 +167,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/sorting/mergesort.java</url>
-          <line>11</line>
-          <properties class="sorting.mergesort" method="mergeSort">
+          <line>5</line>
+          <properties class="sorting.mergesort" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
