@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90fc1f50-bd0d-46de-9af1-6d639e047941" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sorting/quick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/Stream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/ascii.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/subsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/subset.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +45,8 @@
     "Application.Main.executor": "Run",
     "Application.Number.executor": "Run",
     "Application.Numberex.executor": "Run",
+    "Application.Stream.executor": "Run",
+    "Application.ascii.executor": "Run",
     "Application.bs.executor": "Run",
     "Application.count0.executor": "Run",
     "Application.fact.executor": "Run",
@@ -55,6 +60,8 @@
     "Application.revno.executor": "Run",
     "Application.sorted.executor": "Debug",
     "Application.steps.executor": "Run",
+    "Application.subsequence.executor": "Run",
+    "Application.subset.executor": "Run",
     "Application.sumofdigit.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -63,13 +70,13 @@
     "onboarding.tips.debug.path": "C:/Users/akash/IdeaProjects/recursion/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.quick">
-    <configuration name="mergesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.mergesort" />
+  <component name="RunManager" selected="Application.subset">
+    <configuration name="Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.Stream" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,25 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nto1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recurr.nto1" />
+    <configuration name="ascii" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.ascii" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recurr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recurr.pattern" />
-      <module name="recursion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recurr.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +110,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recurr.sorted" />
+    <configuration name="subsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.subsequence" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recurr.*" />
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="subset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.subset" />
+      <module name="recursion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.subset" />
+        <item itemvalue="Application.subsequence" />
+        <item itemvalue="Application.ascii" />
+        <item itemvalue="Application.Stream" />
         <item itemvalue="Application.quick" />
-        <item itemvalue="Application.mergesort" />
-        <item itemvalue="Application.pattern" />
-        <item itemvalue="Application.sorted" />
-        <item itemvalue="Application.nto1" />
       </list>
     </recent_temporary>
   </component>
@@ -165,15 +172,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/sorting/mergesort.java</url>
-          <line>5</line>
-          <properties class="sorting.mergesort" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
