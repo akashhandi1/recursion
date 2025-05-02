@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90fc1f50-bd0d-46de-9af1-6d639e047941" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/backtracking/AllPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtracking/Maze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/Nqueen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/knights.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backtracking/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/Maze.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +41,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.AllPaths.executor": "Run",
+    "Application.AllPaths.executor": "Debug",
     "Application.DICE.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Maze.executor": "Run",
+    "Application.Nqueen.executor": "Debug",
     "Application.Number.executor": "Run",
     "Application.Numberex.executor": "Run",
     "Application.Stream.executor": "Run",
@@ -73,7 +75,7 @@
     "onboarding.tips.debug.path": "C:/Users/akash/IdeaProjects/recursion/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AllPaths">
+  <component name="RunManager">
     <configuration name="AllPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="backtracking.AllPaths" />
       <module name="recursion" />
