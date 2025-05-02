@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90fc1f50-bd0d-46de-9af1-6d639e047941" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/backtracking/Nqueen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtracking/knights.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/sudoku.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backtracking/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/Maze.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +52,7 @@
     "Application.count0.executor": "Run",
     "Application.fact.executor": "Run",
     "Application.fibo.executor": "Run",
+    "Application.knights.executor": "Run",
     "Application.ls.executor": "Run",
     "Application.mergesort.executor": "Debug",
     "Application.nto1.executor": "Run",
@@ -67,6 +66,7 @@
     "Application.steps.executor": "Run",
     "Application.subsequence.executor": "Debug",
     "Application.subset.executor": "Run",
+    "Application.sudoku.executor": "Run",
     "Application.sumofdigit.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -75,7 +75,7 @@
     "onboarding.tips.debug.path": "C:/Users/akash/IdeaProjects/recursion/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.sudoku">
     <configuration name="AllPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="backtracking.AllPaths" />
       <module name="recursion" />
@@ -128,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="subsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.subsequence" />
+    <configuration name="sudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.sudoku" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.sudoku" />
         <item itemvalue="Application.AllPaths" />
         <item itemvalue="Application.Maze" />
         <item itemvalue="Application.phonepad" />
         <item itemvalue="Application.permutation" />
-        <item itemvalue="Application.subsequence" />
       </list>
     </recent_temporary>
   </component>
