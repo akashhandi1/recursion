@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90fc1f50-bd0d-46de-9af1-6d639e047941" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/backtracking/sudoku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/LL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,45 +38,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AllPaths.executor": "Debug",
-    "Application.DICE.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Maze.executor": "Run",
-    "Application.Nqueen.executor": "Debug",
-    "Application.Number.executor": "Run",
-    "Application.Numberex.executor": "Run",
-    "Application.Stream.executor": "Run",
-    "Application.ascii.executor": "Run",
-    "Application.bs.executor": "Run",
-    "Application.count0.executor": "Run",
-    "Application.fact.executor": "Run",
-    "Application.fibo.executor": "Run",
-    "Application.knights.executor": "Run",
-    "Application.ls.executor": "Run",
-    "Application.mergesort.executor": "Debug",
-    "Application.nto1.executor": "Run",
-    "Application.pattern.executor": "Debug",
-    "Application.permutation.executor": "Run",
-    "Application.phonepad.executor": "Run",
-    "Application.quick.executor": "Run",
-    "Application.rbs.executor": "Debug",
-    "Application.revno.executor": "Run",
-    "Application.sorted.executor": "Debug",
-    "Application.steps.executor": "Run",
-    "Application.subsequence.executor": "Debug",
-    "Application.subset.executor": "Run",
-    "Application.sudoku.executor": "Run",
-    "Application.sumofdigit.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/akash/IdeaProjects/recursion/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AllPaths.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DICE.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Maze.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Nqueen.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Number.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Numberex.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Stream.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ascii.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.count0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.fact.executor&quot;: &quot;Run&quot;,
+    &quot;Application.fibo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.knights.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ls.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mergesort.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.nto1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pattern.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.permutation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.phonepad.executor&quot;: &quot;Run&quot;,
+    &quot;Application.quick.executor&quot;: &quot;Run&quot;,
+    &quot;Application.rbs.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.revno.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sorted.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.steps.executor&quot;: &quot;Run&quot;,
+    &quot;Application.subsequence.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.subset.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sudoku.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.sumofdigit.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/akash/IdeaProjects/recursion/src/Main.java&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.sudoku">
+}</component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="AllPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="backtracking.AllPaths" />
       <module name="recursion" />
@@ -89,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.Maze" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.Main" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="backtracking.*" />
+          <option name="PATTERN" value="LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.permutation" />
+    <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.Maze" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.sudoku" />
         <item itemvalue="Application.AllPaths" />
         <item itemvalue="Application.Maze" />
         <item itemvalue="Application.phonepad" />
-        <item itemvalue="Application.permutation" />
       </list>
     </recent_temporary>
   </component>
