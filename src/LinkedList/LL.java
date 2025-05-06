@@ -68,13 +68,64 @@ public class LL {
         return val;
     }
 
+    public Node get(int index){
+        Node node = head;
+        for (int i = 0; i < index; i++) {
+            node = node.next;
+        }
+        return node;
+    }
+
+    public int deletelast(){
+        if(size <= 1){
+            deletefirst();
+        }
+        Node secondLast = get(size-2);
+        int val = tail.value;
+        tail = secondLast;
+        tail.next = null;
+
+        return val;
+    }
+
+    public int deleteatindex(int index){
+        if(index == 0){
+            deletefirst();
+        }
+
+        if(index == size-1){
+            deletelast();
+        }
+
+        Node prev = get(index-1);
+        int val = prev.next.value;
+
+        prev.next = prev.next.next;
+        return val;
+    }
+
+    public int find(int value){
+        Node node = head;
+        int index = 0;
+        while(node != null){
+            if(node.value == value){
+                return index;
+            }
+            node = node.next;
+            index++;
+
+        }
+        return -1;
+    }
+
+
     public void display(){
         Node temp = head;
         while(temp != null){
             System.out.print(temp.value + " ->");
             temp = temp.next;
         }
-        System.out.print("end");
+        System.out.print("end ");
     }
 
     private class Node{

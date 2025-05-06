@@ -15,9 +15,14 @@ public class Main {
         list.insertLast(11);
 
         list.insertatindex(100,3);
-
+        list.display();
         System.out.println(list.deletefirst());
-
+        list.display();
+        System.out.println(list.deletelast());
+        list.display();
+        System.out.println(list.deleteatindex(3));
+        list.display();
+        System.out.println(list.find(100));
         list.display();
     }
 }
